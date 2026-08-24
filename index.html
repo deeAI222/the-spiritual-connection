@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Spiritual Connection | Book with Darren Lynch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#f7f4ef; --soft:#efeae2; --ink:#2c2640; --muted:#5c5670; --accent:#5b4a8a; --gold:#c4a35a; --card:#fff; --border:#e4ddd2; }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Outfit,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.2}
+    .wrap{width:min(1100px,92%);margin:0 auto}
+    header{background:linear-gradient(135deg,#3d3358,#5b4a8a);color:#fff;padding:1.2rem 0 3.2rem}
+    .logo{font-family:"Cormorant Garamond",serif;font-size:1.35rem;font-weight:700}
+    .logo span{color:var(--gold)}
+    .hero{max-width:720px;padding-top:1.5rem}
+    .badge{display:inline-block;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1);padding:.3rem .85rem;border-radius:999px;font-size:.85rem;margin-bottom:1rem}
+    .hero h1{font-size:clamp(2.2rem,5vw,3.3rem);margin-bottom:.7rem}
+    .hero p{opacity:.93;margin-bottom:1.5rem;max-width:560px}
+    .btn{display:inline-block;padding:.85rem 1.35rem;border-radius:999px;text-decoration:none;font-weight:500}
+    .btn-gold{background:var(--gold);color:#2c2640}
+    .btn-ghost{border:1px solid rgba(255,255,255,.4);color:#fff;margin-left:.5rem}
+    .btn-purple{background:var(--accent);color:#fff}
+    section{padding:4rem 0}
+    .alt{background:var(--soft)}
+    .title{text-align:center;font-size:clamp(1.8rem,3vw,2.4rem);margin-bottom:.4rem}
+    .sub{text-align:center;color:var(--muted);max-width:540px;margin:0 auto 2.2rem}
+    .grid2{display:grid;grid-template-columns:1fr 1.15fr;gap:2rem;align-items:start}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.6rem;box-shadow:0 10px 30px rgba(44,38,64,.07)}
+    .muted{color:var(--muted)}
+    .tags{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1rem}
+    .tag{background:#f0ebf8;color:var(--accent);padding:.25rem .7rem;border-radius:999px;font-size:.85rem}
+    .prices{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+    .price{background:#fff;border:1px solid var(--border);border-radius:16px;padding:1.5rem;position:relative}
+    .price.best{border-color:var(--accent)}
+    .price.best:before{content:"Most popular";position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-size:.72rem;padding:.2rem .7rem;border-radius:999px}
+    .amount{font-size:1.7rem;color:var(--accent);font-weight:600;margin:.5rem 0}
+    .amount small{font-size:.95rem;color:var(--muted);font-weight:400}
+    .price ul{list-style:none;margin:1rem 0 1.2rem}
+    .price li{padding:.25rem 0 .25rem 1.2rem;position:relative}
+    .price li:before{content:"✓";position:absolute;left:0;color:#3d7a5a}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+    .step{background:#fff;border:1px solid var(--border);border-radius:16px;padding:1.3rem;text-align:center}
+    .num{width:2.3rem;height:2.3rem;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto .8rem;font-weight:600}
+    .info{background:linear-gradient(160deg,#3d3358,#5b4a8a);color:#fff;border-radius:16px;padding:1.8rem}
+    .info a{color:var(--gold)}
+    .info li{padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.12);list-style:none}
+    details{background:#fff;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;margin:0 auto .7rem;max-width:720px}
+    summary{cursor:pointer;font-weight:500}
+    details p{margin-top:.7rem;color:var(--muted)}
+    footer{background:#2c2640;color:rgba(255,255,255,.85);text-align:center;padding:2.3rem 0}
+    footer a{color:var(--gold);text-decoration:none}
+    @media(max-width:900px){.grid2,.prices,.steps{grid-template-columns:1fr}.btn-ghost{margin-left:0;margin-top:.5rem;display:inline-block}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo">The Spiritual <span>Connection</span></div>
+      <div class="hero">
+        <div class="badge">Online video counselling · Worldwide clients</div>
+        <h1>Space to grow, heal &amp; reconnect</h1>
+        <p>I’m Darren Lynch, a counsellor specialising in spirituality and personal growth. Sessions are held online via secure video call — available wherever you are in the world.</p>
+        <a class="btn btn-gold" href="#book">Book a session</a>
+        <a class="btn btn-ghost" href="#pricing">View packages</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap grid2">
+      <div class="card">
+        <h3>Darren Lynch</h3>
+        <p style="color:var(--accent);font-weight:500;margin:.3rem 0 1rem">Counsellor · Spirituality &amp; Personal Growth</p>
+        <p class="muted">I work with people who want deeper meaning, clearer direction, and genuine personal change. My practice covers all areas of counselling while specialising in spirituality and personal growth.</p>
+        <p class="muted" style="margin-top:.8rem">Sessions are confidential, respectful, and tailored to you.</p>
+        <div class="tags">
+          <span class="tag">Spirituality</span>
+          <span class="tag">Personal growth</span>
+          <span class="tag">Life transitions</span>
+          <span class="tag">Emotional wellbeing</span>
+          <span class="tag">Meaning &amp; purpose</span>
+        </div>
+      </div>
+      <div>
+        <h2>A calm, supportive space</h2>
+        <p class="muted" style="margin-top:1rem">Based in the UK and working with clients worldwide. All sessions take place online via video call so you can join from your own space, in your own timezone.</p>
+        <p class="muted" style="margin-top:.8rem">You set the pace. We explore what matters most — practical next steps, deeper self-understanding, or spiritual connection.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="pricing">
+    <div class="wrap">
+      <h2 class="title">Session packages</h2>
+      <p class="sub">All sessions are 60 minutes via online video call. Prices in GBP and USD.</p>
+      <div class="prices">
+        <div class="price">
+          <h3>Single session</h3>
+          <div class="amount">£60 <small>/ $80</small></div>
+          <p class="muted">One 60-minute online video session.</p>
+          <ul><li>Flexible booking</li><li>Secure video call</li><li>Ideal to start</li></ul>
+          <a class="btn btn-purple" href="#book">Book now</a>
+        </div>
+        <div class="price best">
+          <h3>3 sessions</h3>
+          <div class="amount">£150 <small>/ $200</small></div>
+          <p class="muted">Three sessions — better value and continuity.</p>
+          <ul><li>Save vs singles</li><li>Deeper progress</li><li>Your pace</li></ul>
+          <a class="btn btn-gold" href="#book">Book now</a>
+        </div>
+        <div class="price">
+          <h3>6 sessions</h3>
+          <div class="amount">£300 <small>/ $400</small></div>
+          <p class="muted">Six sessions for sustained support and growth.</p>
+          <ul><li>Best value</li><li>Longer-term work</li><li>Flexible scheduling</li></ul>
+          <a class="btn btn-purple" href="#book">Book now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 class="title">How it works</h2>
+      <p class="sub">From booking to your first session.</p>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><h4>Choose a time</h4><p class="muted">Pick a slot in your own timezone.</p></div>
+        <div class="step"><div class="num">2</div><h4>Confirm</h4><p class="muted">You’ll get an email confirmation.</p></div>
+        <div class="step"><div class="num">3</div><h4>Payment</h4><p class="muted">I’ll send details after booking.</p></div>
+        <div class="step"><div class="num">4</div><h4>Meet online</h4><p class="muted">Join the video call from anywhere.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="book">
+    <div class="wrap">
+      <h2 class="title">Book a session</h2>
+      <p class="sub">The calendar shows times in your timezone and adds the booking to my calendar.</p>
+      <div class="grid2">
+        <div class="info">
+          <h3>What to expect</h3>
+          <p>Choose an available slot. You’ll get instant confirmation. After that I’ll send payment details and the video link.</p>
+          <ul>
+            <li><strong>Format:</strong> Online video (Zoom / Meet)</li>
+            <li><strong>Length:</strong> 60 minutes</li>
+            <li><strong>Based:</strong> UK · worldwide clients</li>
+            <li><strong>Timezones:</strong> handled automatically</li>
+            <li><strong>Payment:</strong> after booking</li>
+            <li><strong>Privacy:</strong> confidential</li>
+          </ul>
+          <p style="margin-top:1rem">Questions? <a href="mailto:thespiritualconnectionpodcast@gmail.com">thespiritualconnectionpodcast@gmail.com</a></p>
+        </div>
+        <div class="card">
+          <h3 style="text-align:center;margin-bottom:.8rem">Choose your time</h3>
+          <div class="calendly-inline-widget" data-url="https://calendly.com/thespiritualconnectionpodcast?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+          <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">Frequently asked questions</h2>
+    **Summary:**
+How do time zones work?<p>Calendly shows times in your local clock and saves the appointment correctly for both of us (you and UK time).</p>
+    **Summary:**
+How do I pay?<p>After you book, I’ll email payment details. Packages: £60/$80 single, £150/$200 for 3, £300/$400 for 6.</p>
+    **Summary:**
+What video platform do you use?<p>Usually Zoom or Google Meet. You’ll receive a private link before the session.</p>
+    **Summary:**
+Are sessions confidential?<p>Yes, within the normal ethical and legal boundaries of counselling practice.</p>
+    **Summary:**
+Can I cancel or reschedule?<p>Please give 24 hours’ notice if you can. You can often reschedule from the Calendly confirmation email.</p>
+    **Summary:**
+Do you work outside the UK?<p>Yes. Clients join from many countries. The calendar handles timezones automatically.</p>
+  </section>
+
+  <footer>
+    <div class="logo">The Spiritual <span>Connection</span></div>
+    <p>Darren Lynch · Counsellor</p>
+    <p><a href="mailto:thespiritualconnectionpodcast@gmail.com">thespiritualconnectionpodcast@gmail.com</a></p>
+  </footer>
+</body>
+</html>
