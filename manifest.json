@@ -1,0 +1,15 @@
+{
+  "name": "The Spiritual Connection",
+  "short_name": "Spiritual Connection",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3d3358",
+  "theme_color": "#5b4a8a",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
